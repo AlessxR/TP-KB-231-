@@ -20,7 +20,7 @@ def calc():
     while True:
         expression = input("Введіть 'exit' для виходу з программи або будь-яке число: ")
         if expression.lower() == "exit":
-            print("бай-бай")
+            print("вихід")
             break
         
         num1 = float(expression)

@@ -1,23 +1,25 @@
-from bisect import bisect
+from bisect import bisect_left
 
-my_list = ["one", "two", "three", "four"]
-
-my_list.sort()
-
-def search_position(lst, element): # бінарний пошук 
-    return bisect(lst, element)
+def search_position(lst, element):
+    """Знаходить позицію для вставки елементу у відсортований список."""
+    return bisect_left(lst, element)
 
 def main():
+    my_list = ["one", "two", "three", "four"]
+    my_list.sort()  # Сортуємо початковий список
+
+    print("Початковий відсортований список:", my_list)
+
     while True:
-        print("Input elements to insert in the array or type 'exit' to quit: ")
-        user_input = input()
+        user_input = input("Введіть елемент для вставки в масив або 'exit' для виходу: ")
         if user_input.lower() == "exit":
+            print("Вихід з програми.")
             break
 
         position = search_position(my_list, user_input)
-        print("Позиція для вставки ", user_input, ":", position)
+        print(f"Позиція для вставки '{user_input}': {position}")
 
         my_list.insert(position, user_input)
-        print("Оновленний список: ", my_list)
+        print("Оновлений список:", my_list)
 
 main()
