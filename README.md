@@ -8,7 +8,6 @@ add solutions for task1, task2 and task3.
 
 # 2024-10-03
 add folder topic_03
-add solutions for task1, task2, task3 and task4.
-Add solution for lab01
+add solution for task1, task2, task3 and task4.
 
 # TP-KB-231-Oleksandr-Kozachok
