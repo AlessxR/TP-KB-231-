@@ -19,10 +19,13 @@
 - **task3**
 - **task4**
 
-### 📂 lab_01 (10 october 2024)
-- **lab1**
+### 📂 lab_01 (2 october 2024)
+- **lab1(updated)**
 
 ### 📂 topic_04 (26 october 2024)
 - **task1_2**
 
----
+### 📂 topic_05 (14 november 2024)
+- **task1**
+- **task2**
+- **task3**
