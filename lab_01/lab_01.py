@@ -20,21 +20,16 @@ def print_all_list():
         print(str_for_print)
 
 def add_new_element():
-    """Функція для додавання нового елементу до списку студентів."""
+    """Функція для додавання нового студента у відсортоване положення списку."""
     name = input("Please enter student name: ")
     phone = input("Please enter student phone: ")
     surname = input("Please enter student surname: ")
     course = input("Please enter student course: ")
     new_item = {"name": name, "phone": phone, "surname": surname, "course": course}
 
-    insert_position = 0
-    for item in students:
-        if name > item["name"]:
-            insert_position += 1
-        else:
-            break
+    insert_position = next((i for i, item in enumerate(students) if name < item["name"]), len(students))
     students.insert(insert_position, new_item)
-    print("New element has been added.")
+    print("New student added.")
 
 def delete_element():
     """Функція для видалення елементу зі списку студентів."""
@@ -52,30 +47,36 @@ def delete_element():
         print("Element has been deleted.")
 
 def update_element():
-    """Функція для оновлення інформації про студента у списку."""
-    print_all_list()
-    name_to_update = input("Please enter the name of the student to be updated: ")
-    phone_to_update = input("Please enter the phone of the student to be updated: ")
+    """Функція для оновлення інформації про студента у відсортованому списку."""
+    name = input("Please enter the name of the student to update: ")
+    phone = input("Please enter the phone of the student to update: ")
 
-    for student in students:
-        if student["name"].lower() == name_to_update.lower() and student["phone"] == phone_to_update:
+    for i, student in enumerate(students):
+        if student["name"].lower() == name.lower() and student["phone"] == phone:
             print(f"Updating information for {student['name']}")
 
-            new_name = input(f"Please enter new name (or press Enter to keep '{student['name']}'): ")
-            new_phone = input(f"Please enter new phone (or press Enter to keep '{student['phone']}'): ")
-            new_surname = input(f"Please enter new surname (or press Enter to keep '{student['surname']}'): ")
-            new_course = input(f"Please enter new course (or press Enter to keep '{student['course']}'): ")
+            new_name = input(f"New name (Enter to keep '{student['name']}'): ") or student["name"]
+            new_phone = input(f"New phone (Enter to keep '{student['phone']}'): ") or student["phone"]
+            new_surname = input(f"New surname (Enter to keep '{student['surname']}'): ") or student["surname"]
+            new_course = input(f"New course (Enter to keep '{student['course']}'): ") or student["course"]
 
-            student["name"] = new_name if new_name else student["name"]
-            student["phone"] = new_phone if new_phone else student["phone"]
-            student["surname"] = new_surname if new_surname else student["surname"]
-            student["course"] = new_course if new_course else student["course"]
+            # Видаляємо старий запис і додаємо новий у відсортоване положення
+            del students[i]
+            new_student = {"name": new_name, "phone": new_phone, "surname": new_surname, "course": new_course}
+            
+            # Знаходимо індекс для нової позиції студента
+            insert_position = len(students)  #  елемент буде в кінці списку
+            for j, item in enumerate(students):
+                if new_name < item["name"]:
+                    insert_position = j
+                    break
 
-            students.sort(key=operator.itemgetter("name"))
-            print("Student information updated and list sorted.")
-            break
-    else:
-        print("Student not found.")
+            # Вставляємо нового студента в обчислену позицію
+            students.insert(insert_position, new_student)
+            print("Student information updated and placed in sorted position.")
+            return
+    print("Student not found.")
+
 
 def main():
     """Головна функція, яка організовує взаємодію з користувачем."""
