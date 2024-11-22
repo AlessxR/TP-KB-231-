@@ -36,3 +36,29 @@
 2024-11-22 14:39:13,655 - INFO - New start the program
 
 2024-11-22 14:39:13,655 - INFO - Exit the program
+2024-11-22 15:37:39,016 - INFO - Calculator starting.
+2024-11-22 15:37:40,260 - INFO - New start the program
+
+2024-11-22 15:37:41,298 - INFO - First number is entered: 5.0
+2024-11-22 15:37:43,093 - INFO - The operation is selected: +
+2024-11-22 15:37:43,843 - INFO - Second number is entered: 5.0
+2024-11-22 15:37:43,843 - INFO - The result of the operation: 5.0 + 5.0 = 10.0
+2024-11-22 15:42:36,377 - INFO - Calculator starting.
+2024-11-22 15:42:39,728 - INFO - New start the program
+
+2024-11-22 15:42:41,459 - INFO - First number is entered: 5.0
+2024-11-22 15:42:42,482 - INFO - The operation is selected: +
+2024-11-22 15:42:42,971 - INFO - Second number is entered: 5.0
+2024-11-22 15:42:42,971 - INFO - The result of the operation: 5.0 + 5.0 = None
+2024-11-22 15:45:41,150 - INFO - Calculator starting.
+2024-11-22 15:45:42,580 - INFO - New start the program
+
+2024-11-22 15:46:33,245 - INFO - Calculator starting.
+2024-11-22 15:46:36,393 - INFO - New start the program
+
+2024-11-22 15:47:02,643 - INFO - Калькулятор запущено.
+2024-11-22 15:47:05,555 - INFO - Перше число введено: 5.0
+2024-11-22 15:47:06,885 - INFO - Операція обрана: +
+2024-11-22 15:47:07,282 - INFO - Друге число введено: 5.0
+2024-11-22 15:47:07,282 - INFO - Результат обчислення: 5.0 + 5.0 = 10.0
+2024-11-22 15:47:10,957 - INFO - Калькулятор завершено.
