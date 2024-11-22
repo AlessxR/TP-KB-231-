@@ -30,6 +30,11 @@
 - **task2**
 - **task3**
 
-### 📂 topic_06 (2 november 2024)
+### 📂 topic_06 (22 november 2024)
 - **task1**
 - **task2**
+
+### 📂 topic_07 (22 november 2024)
+- **task1**
+- **task2**
+- **task3**
