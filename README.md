@@ -29,3 +29,7 @@
 - **task1**
 - **task2**
 - **task3**
+
+### 📂 topic_06 (2 november 2024)
+- **task1**
+- **task2**
