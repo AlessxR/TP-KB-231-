@@ -1,0 +1,38 @@
+2024-11-22 14:37:18,322 - INFO - Calculator starting.
+2024-11-22 14:37:22,093 - INFO - First number is entered: 5.0
+2024-11-22 14:37:24,579 - INFO - The operation is selected: /
+2024-11-22 14:37:26,549 - INFO - Second number is entered: 35.0
+2024-11-22 14:37:26,549 - INFO - The result of the operation: 5.0 / 35.0 = 0.14285714285714285
+2024-11-22 14:37:45,815 - INFO - First number is entered: 3.0
+2024-11-22 14:37:48,646 - INFO - The operation is selected: *
+2024-11-22 14:37:49,426 - INFO - Second number is entered: 3.0
+2024-11-22 14:37:49,426 - INFO - The result of the operation: 3.0 * 3.0 = 9.0
+2024-11-22 14:37:53,644 - INFO - Exit the program
+2024-11-22 14:38:26,777 - INFO - Calculator starting.
+2024-11-22 14:38:27,919 - INFO - New start the program
+2024-11-22 14:38:28,512 - INFO - First number is entered: 5.0
+2024-11-22 14:38:29,492 - INFO - The operation is selected: *
+2024-11-22 14:38:29,951 - INFO - Second number is entered: 5.0
+2024-11-22 14:38:29,951 - INFO - The result of the operation: 5.0 * 5.0 = 25.0
+2024-11-22 14:38:35,884 - INFO - New start the program
+2024-11-22 14:38:36,914 - INFO - First number is entered: 8.0
+2024-11-22 14:38:38,523 - INFO - The operation is selected: +
+2024-11-22 14:38:39,190 - INFO - Second number is entered: 8.0
+2024-11-22 14:38:39,190 - INFO - The result of the operation: 8.0 + 8.0 = 16.0
+2024-11-22 14:38:44,176 - INFO - New start the program
+2024-11-22 14:38:45,576 - INFO - First number is entered: 5.0
+2024-11-22 14:38:47,174 - INFO - The operation is selected: -
+2024-11-22 14:38:47,618 - INFO - Second number is entered: 5.0
+2024-11-22 14:38:47,618 - INFO - The result of the operation: 5.0 - 5.0 = 0.0
+2024-11-22 14:38:49,878 - INFO - New start the program
+2024-11-22 14:38:49,878 - INFO - Exit the program
+2024-11-22 14:39:04,330 - INFO - Calculator starting.
+2024-11-22 14:39:10,234 - INFO - New start the program
+
+2024-11-22 14:39:11,015 - INFO - First number is entered: 5.0
+2024-11-22 14:39:11,812 - INFO - The operation is selected: *
+2024-11-22 14:39:12,214 - INFO - Second number is entered: 5.0
+2024-11-22 14:39:12,214 - INFO - The result of the operation: 5.0 * 5.0 = 25.0
+2024-11-22 14:39:13,655 - INFO - New start the program
+
+2024-11-22 14:39:13,655 - INFO - Exit the program
