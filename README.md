@@ -38,3 +38,13 @@
 - **task1**
 - **task2**
 - **task3**
+
+### 📂 lab_02 (02 december 2024)
+- **lab2**
+
+### 📂 lab_03 (02 december 2024)
+- **lab3**
+
+### 📂 lab_04 (02 december 2024)
+- **lab4**
+
